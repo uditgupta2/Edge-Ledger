@@ -1,0 +1,75 @@
+.textprimary {
+  color: #28a745;
+}
+
+.textsecondary {
+  color: #0284d0;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.btn-secondary {
+  background-color: #0284d0;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  border: #fff solid 1px;
+}
+
+.bg-primary {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: #0284d0;
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #fff;
+  color: #333;
+}
+
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+
+    <style>
+      .mainbox {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        width: 100%;
+      }
+
+      .mainbox .box1 {
+        width: 50%;
+        height: 100%;
+      }
+
+      .mainbox .box1 img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="mainbox">
+      <div class="box1">
+        <img src="/images/home/people.jpg" alt="" />
+      </div>
+      <div class="box2">
+        <h1>hello</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+          hic!
+        </p>
+        <h3>hahaha</h3>
+      </div>
+    </section>
+  </body>
+</html>
